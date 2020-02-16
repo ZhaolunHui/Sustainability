@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/text_tips"
+        android:layout_width="391dp"
+        android:layout_height="166dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/moreInfo_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycle_tip"
+        app:layout_constraintVertical_bias="0.033" />
+
+    <Button
+        android:id="@+id/moreInfo_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="More Information"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/recycle_tip"
+        android:layout_width="406dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/recycle_tip" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="fill_parent"
+        android:layout_height="232dp"
+        app:layout_constraintBottom_toTopOf="@+id/moreInfo_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/slogan" />
+
+    <Button
+        android:id="@+id/youtube_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="See on YouTube!"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_tips" />
+
+    <!--    <com.google.android.youtube.player.YouTubePlayerView-->
+    <!--        android:id="@+id/youTubePlayer"-->
+    <!--        android:layout_width="405dp"-->
+    <!--        android:layout_height="223dp"-->
+    <!--        tools:layout_editor_absoluteX="3dp"-->
+    <!--        tools:layout_editor_absoluteY="124dp"></com.google.android.youtube.player.YouTubePlayerView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

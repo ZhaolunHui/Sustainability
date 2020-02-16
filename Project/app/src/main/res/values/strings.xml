@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ReProduct</string>
+
+
+    <!-- login page -->
+    <string name="login_activity">Login</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Create New Account</string>
+
+    <!-- Register page -->
+    <string name="register_username">Your Username</string>
+    <string name="register_password">Your Password</string>
+    <string name="register_now">Register</string>
+    <string name="title_activity_navi">NaviActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Welcome, ReProduct!</string>
+    <string name="nav_header_subtitle">Android.Project@ucdconnect.ie</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_tips">Tips</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_contact">Contact Us</string>
+
+    <string name="find_us">Find Us By</string>
+    <string name="reset_password">Your New Password</string>
+    <string name="button_reset_password">Reset your Password</string>
+</resources>
